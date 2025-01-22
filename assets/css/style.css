@@ -214,28 +214,28 @@ opacity:1;
 }
 
 .social-icons {
-	margin-top: 20px
+    margin-top: 20px;
 }
 
 .social-icons a {
-	padding: 0 10px;
-	text-decoration: none;
+    padding: 0 10px;
+    text-decoration: none;
 }
 
 .social-icons a:hover,
 .social-icons a:active,
 .social-icons a:visited {
-	color: #fff;
+    color: #fff;
 }
 
 .social-icons svg {
-	fill: #fff;
-	transition: all.2s ease-in-out;
-	width: 20px;
+    fill: #fff; /* Color del icono */
+    transition: all 0.2s ease-in-out; /* Corregido aquí */
+    width: 20px; /* Tamaño del icono */
 }
 
 .social-icons a:hover svg {
-	transform: scale(1.1);
+    transform: scale(1.1); /* Animación de aumento en hover */
 }
 
 .countdown {
