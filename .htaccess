@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.sisa\.pe$ [OR]
+RewriteCond %{HTTP_HOST} ^indu\.sisa\.pe$
+RewriteRule ^(.*)$ https://sisa.pe/$1 [R=301,L]
